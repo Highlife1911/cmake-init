@@ -1,5 +1,5 @@
 
-function(init_project)
+macro(init_project)
 
 set(CMAKE_DEBUG_POSTFIX "d")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -27,4 +27,4 @@ add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 #use math defines from math.h like M_PI and M_E
 add_definitions(-D_USE_MATH_DEFINES)
 
-endfunction(init_project)
+endmacro(init_project)
